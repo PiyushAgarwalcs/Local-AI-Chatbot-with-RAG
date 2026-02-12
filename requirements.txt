@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langgraph
+langgraph-checkpoint-sqlite
+faiss-cpu
+pypdf
+duckduckgo-search
+requests
+python-dotenv
