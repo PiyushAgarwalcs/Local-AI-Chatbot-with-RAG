@@ -7,7 +7,8 @@ A fully local, privacy-focused AI chatbot built with **Ollama**, **LangGraph**, 
 ![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-orange.svg)
 
 ---
-![Uploading Screenshot 2026-02-12 154619.png…]()
+<img width="1874" height="902" alt="Screenshot 2026-02-12 154619" src="https://github.com/user-attachments/assets/25cd16e5-8dc9-49e1-a945-7de752e1e976" />
+
 
 ## ✨ Features
 
