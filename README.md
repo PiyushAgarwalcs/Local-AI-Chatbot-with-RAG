@@ -7,6 +7,7 @@ A fully local, privacy-focused AI chatbot built with **Ollama**, **LangGraph**, 
 ![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-orange.svg)
 
 ---
+![Uploading Screenshot 2026-02-12 154619.png…]()
 
 ## ✨ Features
 
@@ -32,16 +33,11 @@ A fully local, privacy-focused AI chatbot built with **Ollama**, **LangGraph**, 
 ## 🖥️ System Requirements
 
 ### Minimum
-- **RAM**: 4GB (6GB recommended)
+- **RAM**: 8GB (16GB recommended)
 - **Storage**: 5GB free space
-- **OS**: Windows 10/11, macOS, or Linux
+- **OS**: Windows 11
 - **Python**: 3.10 or higher
-
-### Recommended
-- **RAM**: 8GB or more
-- **CPU**: Modern quad-core processor
-- **Storage**: SSD for faster model loading
-
+  
 ---
 
 ## 🚀 Installation
@@ -134,7 +130,6 @@ chatbot-project/
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # This file
 ├── chatbot.db                  # SQLite database (auto-created)
-└── .env                        # Environment variables (optional)
 ```
 
 ---
@@ -208,21 +203,10 @@ rm chatbot.db   # macOS/Linux
 
 ---
 
-## 📊 Performance Notes
-
-### Model Comparison
-
-| Model | RAM Usage | Speed | PDF RAG Quality | Recommended For |
-|-------|-----------|-------|-----------------|-----------------|
-| `tinyllama` | ~1GB | ⚡⚡⚡ Fast | ⭐⭐ Fair | Quick testing |
-| `llama3.2:1b` | ~1.5GB | ⚡⚡ Fast | ⭐⭐ Fair | Basic chat |
-| `llama3.2:3b` | ~3GB | ⚡ Medium | ⭐⭐⭐ Good | **Recommended** |
-| `llama3.1:8b` | ~6GB | 🐢 Slow | ⭐⭐⭐⭐ Excellent | High accuracy |
-
 ### Expected Response Times
-- **Simple chat**: 2-5 seconds
-- **PDF upload**: 5-15 seconds (depending on size)
-- **PDF question**: 5-10 seconds
+- **Simple chat**: 5-10 seconds
+- **PDF upload**: 15-25 seconds (depending on size)
+- **PDF question**: 15-20 seconds
 - **Calculation**: 1-2 seconds
 
 ---
@@ -253,8 +237,8 @@ rm chatbot.db   # macOS/Linux
 
 1. **RAG Accuracy**: Local models may not match GPT-4 quality for complex PDF queries
 2. **Performance**: Slower than cloud-based solutions on low-end hardware
-3. **Context Window**: Limited to 4096 tokens (can cause issues with very long conversations)
-4. **Tool Calling**: Local models have limited function calling capabilities
+3. **Context Window**: Can cause issues with very long conversations
+4. **Tool Calling**: Local models have limited function calling capabilities 
 5. **Languages**: Best performance with English content
 
 ---
@@ -292,7 +276,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For issues, questions, or suggestions:
 - Open an issue on GitHub
-- Contact: [Your Email/GitHub Profile]
+- Contact: [piyushagarwal2003k@gmail.com]
 
 ---
 
